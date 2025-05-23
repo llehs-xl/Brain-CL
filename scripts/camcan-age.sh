@@ -1,0 +1,1 @@
+python -u run_main.py --dataset camcan-age --n_epochs 100 --pretrain_lr 0.008 --finetune_epochs_100 100 --finetune_lr_100 0.008 --device cuda:0 --RANDOM_SEED 42 --fmri general --num_classes 1 --pretrain_batch_size 16 --finetune_batch_size_100 16
